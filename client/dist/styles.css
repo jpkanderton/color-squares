@@ -1,3 +1,42 @@
-p {
-  color: red;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#AddEventListener-container {
+  background-color: green;
+  height: 4000px;
+}
+
+#ael-inner-container {
+  background-color: hotpink;
+  height: 500px;
+  width: 500px;
+  overflow: scroll;
+}
+
+#ael-inner {
+  height: 2000px;
+}
+
+#outer1 {
+  background-color: navajowhite;
+  height: 4000px;
+}
+
+#inner1 {
+  background-color: hotpink;
+  height: 500px;
+  width: 500px;
+  overflow: scroll;
+}
+
+#center1 {
+  height: 2000px;
+}
+
+#GetComputedStyle-container {
+  background-color: hotpink;
 }
